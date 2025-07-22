@@ -241,6 +241,7 @@ body {
         margin-top: 10px;
         padding-top: 15px;
         border-top: 1px solid;
+        border-color: $light-sidebar-divider;
       }
 
       .dropdown__version-info {
@@ -415,7 +416,6 @@ body {
 
       .sidebar__user-avatar-wrapper {
         margin-right: 0;
-        border-radius: 50%;
       }
 
       .sidebar__user-info, .sidebar__user-dropdown-icon {
@@ -600,7 +600,8 @@ body {
 }
 
 .sidebar__user-avatar {
-  border-radius: 50%;
+  width: 24px;
+  height: 24px;
 }
 
 .sidebar__user-info--wrapper {
